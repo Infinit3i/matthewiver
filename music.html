@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Infinti3s Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link href="./css/all.css" rel="stylesheet">
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Goldman';
+    }
+
+    .INFINIT3I {
+        transition: transform 1.5s;
+    }
+
+    .INFINIT3I:hover {
+        transform: scale(2);
+    }
+
+    .icon-cog:hover {
+        color: orange;
+    }
+
+    .icon-all {
+        color: white;
+        transition: transform .2s;
+    }
+
+    .icon-all:hover {
+        transform: scale(1.3);
+    }
+
+    .icon-fcc:hover {
+        color: green;
+    }
+
+    .icon-gh:hover {
+        color: darkgray;
+    }
+
+    .icon-htb:hover {
+        color: limegreen;
+    }
+
+    .icon-yt:hover {
+        color: #FF0000;
+    }
+
+    .icon-li:hover {
+        color: #0077B5;
+    }
+
+    #profilePic {
+        width: 14em;
+        height: 14em;
+        -webkit-border-radius: 7em;
+        -moz-border-radius: 7em;
+        border-radius: 7em;
+        margin: 1.5em 0 1.5em 0;
+        border: double;
+    }
+
+    #upper-icons {
+        justify-content: center;
+        display: flex;
+    }
+
+    @media screen and (max-width: 700px) {
+        #upper-icons {
+            justify-content: center;
+        }
+    }
+
+    #border-box {
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        display: table-cell;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        display: table;
+        clear: both;
+    }
+
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+    /* Style the counter cards */
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: grey;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    .clubs {
+        max-width: 4em;
+        max-height: 4em;
+        width: auto;
+        height: auto;
+    }
+    </style>
+</head>
+
+<body>
+    <img id="profilePic" src="https://www.lovethispic.com/uploaded_images/132821-Spooky-Eyes.gif" alt="INFINIT3I">
+    <div id="border-box">
+        <h1 class="INFINIT3I">INFINIT3I</h1>
+        <p>CTFS | CYBER SECURITY | PROGRAMMING</p>
+        <button class="buttons"><a href="mailto:matthewiver@protonmail.com">Contact Me</a></button>
+        <hr />
+        <br />
+        <div>
+            <p>Musid Page</p>
+        </div>
+</body>
+
+</html>
