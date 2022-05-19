@@ -2,123 +2,124 @@
         box-sizing: border-box;
     }
 
-    body {
-        background-color: black;
-        color: white;
-        text-align: center;
-        justify-content: center;
-        font-family: 'Goldman';
-    }
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Goldman';
+}
 
-    .INFINIT3I {
-        transition: transform 1.5s;
-    }
+.INFINIT3I {
+    transition: transform 1.5s;
+}
 
-    .INFINIT3I:hover {
-        transform: scale(2);
-    }
+.INFINIT3I:hover {
+    transform: scale(2);
+}
 
-    .icon-all {
-        color: white;
-        transition: transform .2s;
-    }
+.icon-all {
+    color: white;
+    transition: transform .2s;
+}
 
-    .icon-all:hover {
-        transform: scale(1.3);
-    }
+.icon-all:hover {
+    transform: scale(1.3);
+}
 
-    .icon-fcc:hover {
-        color: green;
-    }
+.icon-fcc:hover {
+    color: green;
+}
 
-    .icon-gh:hover {
-        color: darkgray;
-    }
+.icon-gh:hover {
+    color: darkgray;
+}
 
-    .icon-htb:hover {
-        color: limegreen;
-    }
+.icon-htb:hover {
+    color: limegreen;
+}
 
-    .icon-yt:hover {
-        color: #FF0000;
-    }
+.icon-yt:hover {
+    color: #FF0000;
+}
 
-    .icon-li:hover {
-        color: #0077B5;
-    }
+.icon-li:hover {
+    color: #0077B5;
+}
 
-    #profilePic {
-        width: 14em;
-        height: 14em;
-        -webkit-border-radius: 7em;
-        -moz-border-radius: 7em;
-        border-radius: 7em;
-        margin: 1.5em 0 1.5em 0;
-        border: double;
-    }
+#profilePic {
+    width: 14em;
+    height: 14em;
+    -webkit-border-radius: 7em;
+    -moz-border-radius: 7em;
+    border-radius: 7em;
+    margin: 1.5em 0 1.5em 0;
+    border: double;
+}
 
+#upper-icons {
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
     #upper-icons {
         justify-content: center;
-        display: flex;
-    }
-
-    @media screen and (max-width: 700px) {
-        #upper-icons {
-            justify-content: center;
-        }
-
-        .column {
-            width: 100%;
-            display: block;
-            margin-bottom: 20px;
-        }
-    }
-
-    #border-box {
-        align-content: center;
-        justify-content: center;
-        margin: auto;
     }
 
     .column {
-        float: left;
-        width: 50%;
-        padding: 10px;
-        display: table-cell;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
     }
+}
 
-    .row:after {
-        display: table;
-        clear: both;
-    }
+#border-box {
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
 
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        padding: 16px;
-        text-align: center;
-        background-color: grey;
-    }
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    display: table-cell;
+}
 
-    a {
-        color: white;
-        text-decoration: none;
-    }
+.row:after {
+    display: table;
+    clear: both;
+}
 
-    a:hover {
-        color: red;
-    }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: grey;
+}
 
-    .clubs {
-        max-width: 3em;
-        max-height: 3em;
-        width: auto;
-        height: auto;
-    }
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.clubs {
+    max-width: 3em;
+    max-height: 3em;
+    width: auto;
+    height: auto;
+}
 
 
-
-
-
+.badges {
+    justify-content: center;
+    display: flex;
+}
 
 
 
