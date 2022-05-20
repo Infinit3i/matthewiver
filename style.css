@@ -8,6 +8,15 @@ body {
     font-family: 'Goldman';
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
 .icon-all {
     color: grey;
     transition: transform .2s;
@@ -67,18 +76,9 @@ body {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    padding: 1em;
     text-align: center;
-    background-color: grey;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: red;
+    background-image: linear-gradient(180deg, grey, darkgrey);
 }
 
 .clubs {
@@ -93,15 +93,13 @@ a:hover {
     display: flex;
 }
 
-
 /* Add a black background color to the top navigation */
 .topnav {
     position: sticky;
-    background-color: grey;
+    background-image: linear-gradient(180deg, grey, darkgrey);
     overflow: hidden;
     top: 0;
-    outline: 3px black;
-    border: double;
+    outline: 5px black;
 }
 
 /* Style the links inside the navigation bar */
@@ -140,7 +138,6 @@ a:hover {
     float: right;
 }
 
-/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
 @media screen and (max-width: 600px) {
 
     .topnav a,
@@ -170,64 +167,23 @@ a:hover {
 
 .footer {
     width: 100%;
+    padding: 10px;
 }
 
 .footer-basic {
     padding: 40px 0;
     background-color: #ffffff;
-    color: #4b4c4d;
+    background-image: linear-gradient(180deg, grey, darkgrey);
 }
 
-.footer-basic ul {
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-}
-
-.footer-basic li {
-    padding: 0 10px;
-}
-
-.footer-basic ul a {
-    color: inherit;
-    text-decoration: none;
-    opacity: 0.8;
-}
-
-.footer-basic ul a:hover {
-    opacity: 1;
-}
-
-.footer-basic .social {
+.footer-basic {
     text-align: center;
     padding-bottom: 25px;
 }
 
-.footer-basic .social>a {
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    margin: 0 8px;
-    color: inherit;
-    opacity: 0.75;
-}
-
-.footer-basic .social>a:hover {
-    opacity: 0.9;
-}
 
 .footer-basic .copyright {
     margin-top: 15px;
     text-align: center;
-    font-size: 13px;
-    color: #aaa;
     margin-bottom: 0;
 }
