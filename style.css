@@ -110,8 +110,7 @@ a:hover {
     background-color: grey;
     overflow: hidden;
     top: 0;
-    border-color: black;
-    border-width: 10px;
+    outline: 3px black;
 }
 
 /* Style the links inside the navigation bar */
