@@ -18,12 +18,12 @@ a:hover {
 }
 
 .icon-all {
-    color: grey;
+    color: white;
     transition: transform .2s;
 }
 
 .icon-all:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .icon-fcc:hover {
@@ -54,12 +54,6 @@ a:hover {
     border-radius: 7em;
     margin: 1.5em 0 1.5em 0;
     border: double;
-}
-
-#border-box {
-    align-content: center;
-    justify-content: center;
-    margin: auto;
 }
 
 .column {
@@ -93,38 +87,33 @@ a:hover {
     display: flex;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
-    position: sticky;
     background-image: linear-gradient(180deg, grey, darkgrey);
     overflow: hidden;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
-    outline: 5px black;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
     background-color: darkred;
     color: white;
 }
 
-/* Centered section inside the top navigation */
 .topnav-centered a {
     float: none;
     position: absolute;
@@ -133,7 +122,6 @@ a:hover {
     transform: translate(-50%, -50%);
 }
 
-/* Right-aligned section inside the top navigation */
 .topnav-right {
     float: right;
 }
