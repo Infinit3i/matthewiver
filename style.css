@@ -5,17 +5,7 @@
 body {
     background-color: black;
     color: white;
-    text-align: center;
-    justify-content: center;
     font-family: 'Goldman';
-}
-
-.INFINIT3I {
-    transition: transform 1.5s;
-}
-
-.INFINIT3I:hover {
-    transform: scale(2);
 }
 
 .icon-all {
