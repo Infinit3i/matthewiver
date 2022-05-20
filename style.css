@@ -9,7 +9,7 @@ body {
 }
 
 .icon-all {
-    color: white;
+    color: grey;
     transition: transform .2s;
 }
 
@@ -101,6 +101,7 @@ a:hover {
     overflow: hidden;
     top: 0;
     outline: 3px black;
+    border: double;
 }
 
 /* Style the links inside the navigation bar */
