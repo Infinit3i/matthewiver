@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     background-color: black;
     color: white;
@@ -44,6 +40,16 @@ a:hover {
 
 .icon-li:hover {
     color: #0077B5;
+}
+
+.icon-email:hover {
+    color: lightgrey;
+}
+
+#border-box {
+    align-content: center;
+    justify-content: center;
+    margin: auto;
 }
 
 #profilePic {
@@ -162,9 +168,10 @@ a:hover {
 
 
 .footer-basic {
-    padding: 40px 0;
+    padding: 70px 0;
     background-color: #ffffff;
     background-image: linear-gradient(180deg, grey, darkgrey);
+    min-height: 400px;
 }
 
 .footer-basic {
