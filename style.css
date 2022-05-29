@@ -2,7 +2,6 @@ body {
     background-color: black;
     color: white;
     font-family: 'Goldman';
-    height: 100%;
 }
 
 a {
@@ -48,9 +47,9 @@ a:hover {
 }
 
 #border-box {
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 #profilePic {
@@ -163,7 +162,7 @@ a:hover {
     background-image: linear-gradient(180deg, grey, darkgrey);
     text-align: center;
     bottom: 0;
-    position: relative;
+    position: absolute;
     padding: 1em 0;
     width: 100%;
 }
