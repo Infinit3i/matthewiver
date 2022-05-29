@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Goldman';
+    height: 100%;
 }
 
 a {
@@ -47,9 +48,9 @@ a:hover {
 }
 
 #border-box {
-    align-content: center;
-    justify-content: center;
-    margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 
 #profilePic {
@@ -57,16 +58,15 @@ a:hover {
     height: 14em;
     -webkit-border-radius: 7em;
     -moz-border-radius: 7em;
-    border-radius: 7em;
-    margin: 1.5em 0 1.5em 0;
+    border-radius: 8em;
     border: double;
+    margin: 5em 43.5%;
 }
 
 .column {
-    float: left;
-    width: 50%;
     padding: 10px;
     display: table-cell;
+    width: 10%;
 }
 
 .row:after {
@@ -76,7 +76,7 @@ a:hover {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 1em;
+    padding: .5em;
     text-align: center;
     background-image: linear-gradient(180deg, grey, darkgrey);
 }
@@ -159,26 +159,14 @@ a:hover {
     }
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-}
-
-
 .footer-basic {
-    padding: 70px 0;
-    background-color: #ffffff;
     background-image: linear-gradient(180deg, grey, darkgrey);
-    min-height: 400px;
-}
-
-.footer-basic {
     text-align: center;
-    padding-bottom: 25px;
+    bottom: 0;
+    position: relative;
+    padding: 1em 0;
+    width: 100%;
 }
-
 
 .footer-basic .copyright {
     margin-top: 15px;
