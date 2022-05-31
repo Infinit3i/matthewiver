@@ -162,7 +162,7 @@ a:hover {
     background-image: linear-gradient(180deg, grey, darkgrey);
     text-align: center;
     bottom: 0;
-    position: absolute;
+    position: static;
     padding: 1em 0;
     width: 100%;
 }
