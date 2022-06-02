@@ -64,11 +64,12 @@ a:hover {
     -moz-border-radius: 7em;
     border-radius: 7em;
     border: double;
-    margin: 0 43.5%;
+    display: flex;
+    margin: 2em auto;
 }
 
 .column {
-    padding: 10px;
+    padding: .25em;
     display: table-cell;
     width: 10%;
 }
@@ -160,6 +161,7 @@ a:hover {
         width: 100%;
         display: block;
         margin-bottom: 20px;
+        padding: .5em 0;
     }
 }
 
