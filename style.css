@@ -57,9 +57,9 @@ a:hover {
     height: 14em;
     -webkit-border-radius: 7em;
     -moz-border-radius: 7em;
-    border-radius: 8em;
+    border-radius: 7em;
     border: double;
-    margin: 5em 43.5%;
+    margin: 0 43.5%;
 }
 
 .column {
