@@ -14,6 +14,10 @@ a:hover {
     color: red;
 }
 
+.wrapper {
+    min-height: 100%;
+}
+
 .icon-all {
     color: white;
     transition: transform .2s;
