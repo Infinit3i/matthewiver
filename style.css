@@ -18,6 +18,10 @@ a:hover {
     min-height: 90vh;
 }
 
+.filler {
+    padding: 2em;
+}
+
 .icon-all {
     color: white;
     transition: transform .2s;
