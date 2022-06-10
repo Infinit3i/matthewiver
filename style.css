@@ -97,6 +97,13 @@ a:hover {
     height: auto;
 }
 
+.books {
+    max-width: 8em;
+    max-height: 8em;
+    width: auto;
+    height: auto;
+}
+
 .badges {
     justify-content: center;
     display: flex;
