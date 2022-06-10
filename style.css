@@ -3,6 +3,11 @@ body {
     color: white;
     font-family: 'Goldman';
     height: 100%;
+    overflow-y: scroll;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -11,11 +16,11 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: indianred;
 }
 
 .wrapper {
-    min-height: 90vh;
+    min-height: 85vh;
 }
 
 .filler {
@@ -24,23 +29,16 @@ a:hover {
 
 .icon-all {
     color: white;
-    transition: transform .2s;
+    transition: transform .5s;
+    padding: .2em;
 }
 
 .icon-all:hover {
-    transform: scale(1.1);
-}
-
-.icon-fcc:hover {
-    color: green;
+    transform: scale(1.5);
 }
 
 .icon-gh:hover {
     color: darkgray;
-}
-
-.icon-htb:hover {
-    color: limegreen;
 }
 
 .icon-yt:hover {
@@ -70,6 +68,14 @@ a:hover {
     border: double;
     display: flex;
     margin: 2em auto;
+}
+
+.circle {
+    height: 3em;
+    width: 3em;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    border-radius: 1.5em;
 }
 
 .column {
@@ -109,6 +115,7 @@ a:hover {
 .badges {
     justify-content: center;
     display: flex;
+    padding: .5em;
 }
 
 .topnav {
